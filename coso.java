@@ -94,7 +94,8 @@ function buscar() {
     };
     objXMLHttpRequest.open("GET", url);
     objXMLHttpRequest.send();
-  } else {
+  } elseo {
     alert("DEbe ingresar un numero de 1 a 20 para obtener un Pokemon valido");
   }
+
 }
