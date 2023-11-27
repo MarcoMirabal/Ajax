@@ -1,0 +1,29 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+  }
+  
+  #ContainerCard{
+    width: 30px;
+  }
+
+    .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
