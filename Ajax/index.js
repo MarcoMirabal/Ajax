@@ -42,7 +42,7 @@ function solicitudAJAX(params) {
             nombre +
             `</h5>
       <p class="card-text"></p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-light">Go somewhere</a>
     </div>
   </div>`;
           div.appendChild(html);
@@ -82,7 +82,7 @@ function solicitudAJAX(params) {
               nombre +
               `</h5>
       <p class="card-text"></p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-warning">Go somewhere</a>
     </div>
   </div>`;
             tarjetas.innerHTML = html;

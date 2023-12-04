@@ -13,19 +13,24 @@
   </head>
 
   <body onload="solicitudAJAX()">
+    <header>
+      <center><img src="../Ajax/imagenes/pokemon-logo-png-1421.png" alt="Pokemon"> 
+        <div class="info"><h2>Para usar el Buscador, ingrese un número del 1 al 20 para elegir a un Pokémon</h2></center></div>
+      
+    </header>
     <center>
     <div class="container">
       <h4>
-        Consumo de api Pokemon <span class="badge bg-secondary">Ajax</span>
+        Consumo de API Pokemon         <span class="badge bg-warning ">Ajax</span>
       </h4>
       <label for="nPokemon">Buscador</label>
       <input
         type="number"
         id="nPokemon"
-        placeholder="Ingresar un numreo de Pokemon"
+        placeholder="Númreo de Pokemon"
         data=""
       />
-      <button onclick="buscar()">
+      <button id="coso" onclick="buscar()">
         Buscar
       </button>
     </div>
